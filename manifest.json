@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Audio Link Extractor",
+  "version": "1.0",
+  "description": "Extrai links de áudio de tags <audio> em páginas web",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Extrair links de áudio"
+  }
+}
